@@ -29,22 +29,39 @@ class DaftarGayaTeks extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             Text(
-              'Normal',
+              'Halo!',
               style: TextStyle(fontSize: 20),
             ),
             Text(
-              'Bold',
-              style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
+              'Hari ini seneng banget!',
+              style: TextStyle(
+                fontSize: 20,
+                fontWeight: FontWeight.bold,
+              ),
             ),
             Text(
-              'Semi Bold',
-              style: TextStyle(fontSize: 20, fontWeight: FontWeight.w600),
+              'Akhirnya tugas selesai juga.',
+              style: TextStyle(
+                fontSize: 20,
+                fontWeight: FontWeight.w600,
+              ),
             ),
             Text(
-              'Italic',
-              style: TextStyle(fontSize: 20, fontStyle: FontStyle.italic),
+              'Semoga besok lebih menyenangkan.',
+              style: TextStyle(
+                fontSize: 20,
+                fontStyle: FontStyle.italic,
+              ),
+            ),
+            Text(
+              'Aku siap menghadapi hari esok.',
+              style: TextStyle(
+                fontSize: 20,
+                color: Colors.blue,
+              ),
             ),
           ],
+
         ),
       ),
     );
